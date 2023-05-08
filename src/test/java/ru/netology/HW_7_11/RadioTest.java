@@ -1,4 +1,4 @@
-package ru.netology.HW_7_10;
+package ru.netology.HW_7_11;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
