@@ -39,15 +39,18 @@ public class Radio {
         return totalStation;
     }
 
-//    public Radio(int totalStation ) {
-//        maxStation = minStation + totalStation;
-//    }
 
-//    public Radio(int minStation, int maxStation) {
-//        this.minStation = minStation;
-//        this.maxStation = maxStation;
-//
-//    }
+    public Radio(int totalStation) {
+        this.totalStation = totalStation;
+        maxStation = minStation + totalStation - 1;
+
+    }
+
+    public Radio() {
+        this.totalStation = totalStation;
+        maxStation = maxStation + totalStation - 1;
+
+    }
 
 
     public void setTotalStation(int totalStation) {
